@@ -8,5 +8,5 @@ export default class CoordinatesButton extends Component {
 
 
 render() {
-  
+  return
 }
