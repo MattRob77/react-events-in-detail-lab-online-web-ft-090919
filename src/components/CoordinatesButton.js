@@ -1,17 +1,12 @@
-// Code CoordinatesButton Component Here
-import React, { Component } from 'react'; 
+import React, { Component } from 'react';
 
 export default class CoordinatesButton extends Component {
-
-  coordinatesButtonHandler = (e) => {
+  coordinatesButtonHandler = (event) => {
     let array = [event.clientX, event.clientY]
-    this.props.OnReceiveCoordinates(array)
+    this.props.onReceiveCoordinates(array)
   }
-}
 
-
-
- render() {
+  render() {
     return (
       <button onClick={this.coordinatesButtonHandler}>Coordinates button</button>
     )
