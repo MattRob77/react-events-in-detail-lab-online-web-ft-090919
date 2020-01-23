@@ -13,5 +13,5 @@ export default class DelayedButton extends Component {
 
 render() {
   return 
-  <button OnClick={this.}
+  <button OnClick={this. delayedButtonHandler}
 }
