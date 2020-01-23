@@ -11,4 +11,5 @@ render() {
   return (
     <button OnClick={this.coordinatesButtonHandler}> CoordinatesButton</button> 
     )
+  }
 }
