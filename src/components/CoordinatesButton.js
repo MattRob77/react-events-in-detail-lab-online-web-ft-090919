@@ -7,9 +7,9 @@ export default class CoordinatesButton extends Component {
 
 
 
-render() {
-  return (
-    <button OnClick={this.coordinatesButtonHandler}> CoordinatesButton</button> 
+ render() {
+    return (
+      <button onClick={this.coordinatesButtonHandler}>Coordinates button</button>
     )
   }
 }
