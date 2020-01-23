@@ -9,3 +9,4 @@ export default class DelayedButton extends Component {
       this.props.onDelayedClick(event)
     },this.props.delay)
   }
+
