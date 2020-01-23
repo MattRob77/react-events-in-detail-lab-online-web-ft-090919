@@ -3,7 +3,7 @@ import React, { Component} from 'react'
 
 export default class DelayedButton extends Component {
   
-  delayedButtonHandler = (e) => {
+  delayedButtonHandler = (event) => {
     event.persist()
     
    setTimeout(() => {
