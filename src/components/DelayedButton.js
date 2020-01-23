@@ -10,6 +10,7 @@ export default class DelayedButton extends Component {
     },this.props.delay)
   }
 
-render {
+render() {
+  return 
   
 }
