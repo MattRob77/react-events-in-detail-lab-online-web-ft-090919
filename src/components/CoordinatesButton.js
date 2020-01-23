@@ -5,7 +5,7 @@ export default class CoordinatesButton extends Component {
 
   coordinatesButtonHandler = (e) => {
     let array = [event.clientX, event.clientY]
-    this.props.OnReceiveCoordinates
+    this.props.OnReceiveCoordinates(array)
   }
 }
 
